@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(64, 63, 63);
+}
+.navbar{
+    background: black;
+    height: 3.8em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    position:fixed;
+    top: 0px; 
+    height: 80px; 
+}
+.logo{
+    width: 50%;
+}
+.nav-ops a{
+    margin: 0.8em;
+    color:white;
+    text-decoration: none;
+}
+
+.nav-ops a:hover{
+    color: red;
+}
+
+  
+
+/* hero-section */
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    background-image: url('images/hero.png');
+    background-size: cover;
+    width: 30em;
+    height: 23em;
+}
+
+a{
+    text-decoration: none;
+}
+.hero-button{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 23px;
+}
+.hero-button:hover{
+  font-size: 26px;
+  transition-duration: 2s;
+}
+.hero-section a{
+    background-color: red;
+}
+
+.hero-head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+.hero-para{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+
+/* menu section */
+
+#menu-section{
+    margin-top: 30px;
+}
+.menu-head{
+    color: white;
+    text-align: center;
+}
+
+.menu-container{
+    display: flex;
+    padding-left: 200px;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.menu-items{
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    padding: 20px;
+     
+}
+
+.menu-items h4{
+    color: black;
+     margin-top: 20px;
+}
+.menu-items img{ 
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.button{
+    width: 9em;
+    height: 2.7em;
+    background-color: rgba(255, 0, 0, 0.775);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* trading section */
+
+#tranding-section{
+    margin-top: 50px;
+}
+
+.tranding-head{
+    text-align: center;
+}
+
+.tranding-images{
+   display: flex;
+   margin-left: 150px;
+   margin-top: 50px;
+   gap: 40px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.tranding-border:hover{
+    border: 8px solid white;
+    transform:scale(0.8);
+}
+
+.tranding-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+
+
+/* customer-review section */
+
+#review-section{
+    margin-top: 50px;
+}
+
+.review-continer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.review-box{
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    
+}
+
+.review-head{
+    text-align: center;
+    color: black;
+}
+
+.review-image{
+    padding-left: 120px;
+}
+.review-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.review-content p{
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+/* blog section */
+
+
+
+#blog-section{
+    margin-top: 200px;
+}
+
+.blog-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+/* footer-section */
+
+footer{
+    margin-top:200px;
+}
+
+.footer-section{
+    background-color: black;
+    /* color: white; */
+    width: 100%;
+    height: 520px;
+     display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+ul{
+    list-style-type: none;
+}
+
+.footer-panel1{
+    width: 300px;
+    height: 200px;
+}
+
+.footer-panel ul li{
+    margin: 20px;
+    font-weight: 200;
+}
+
+#developer{
+    color: rgba(231, 159, 4, 0.845);
+    font-weight: 700;
+    text-align: center;
+}
+
